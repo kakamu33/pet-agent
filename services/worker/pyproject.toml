@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=69"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pet-agent-worker"
+version = "0.1.0"
+description = "Background jobs for Pet Agent"
+requires-python = ">=3.10"
+dependencies = [
+    "redis>=5.0,<6.0",
+    "pydantic-settings>=2.5,<3.0",
+]
+
+[tool.setuptools.packages.find]
+include = ["worker*"]
+

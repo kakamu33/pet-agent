@@ -1,0 +1,17 @@
+.DS_Store
+.idea/
+.venv/
+__pycache__/
+*.py[cod]
+.env
+.env.*
+!.env.example
+apps/client_flutter/.dart_tool/
+apps/client_flutter/.flutter-plugins
+apps/client_flutter/.flutter-plugins-dependencies
+apps/client_flutter/.packages
+apps/client_flutter/build/
+apps/client_flutter/.idea/
+apps/client_flutter/macos/Flutter/ephemeral/
+apps/client_flutter/windows/flutter/ephemeral/
+
