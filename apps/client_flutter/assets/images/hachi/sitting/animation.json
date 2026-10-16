@@ -1,0 +1,106 @@
+{
+  "canvas": [
+    560,
+    512
+  ],
+  "loop": true,
+  "fps": 10,
+  "frames": [
+    {
+      "file": "frame-001.png",
+      "duration_ms": 100
+    },
+    {
+      "file": "frame-002.png",
+      "duration_ms": 100
+    },
+    {
+      "file": "frame-003.png",
+      "duration_ms": 100
+    },
+    {
+      "file": "frame-004.png",
+      "duration_ms": 100
+    },
+    {
+      "file": "frame-005.png",
+      "duration_ms": 100
+    },
+    {
+      "file": "frame-006.png",
+      "duration_ms": 100
+    },
+    {
+      "file": "frame-007.png",
+      "duration_ms": 100
+    },
+    {
+      "file": "frame-008.png",
+      "duration_ms": 100
+    },
+    {
+      "file": "frame-009.png",
+      "duration_ms": 100
+    },
+    {
+      "file": "frame-010.png",
+      "duration_ms": 100
+    },
+    {
+      "file": "frame-011.png",
+      "duration_ms": 100
+    },
+    {
+      "file": "frame-012.png",
+      "duration_ms": 100
+    },
+    {
+      "file": "frame-013.png",
+      "duration_ms": 100
+    },
+    {
+      "file": "frame-014.png",
+      "duration_ms": 100
+    },
+    {
+      "file": "frame-015.png",
+      "duration_ms": 100
+    },
+    {
+      "file": "frame-016.png",
+      "duration_ms": 100
+    },
+    {
+      "file": "frame-017.png",
+      "duration_ms": 100
+    },
+    {
+      "file": "frame-018.png",
+      "duration_ms": 100
+    },
+    {
+      "file": "frame-019.png",
+      "duration_ms": 100
+    },
+    {
+      "file": "frame-020.png",
+      "duration_ms": 100
+    },
+    {
+      "file": "frame-021.png",
+      "duration_ms": 100
+    },
+    {
+      "file": "frame-022.png",
+      "duration_ms": 100
+    },
+    {
+      "file": "frame-023.png",
+      "duration_ms": 100
+    },
+    {
+      "file": "frame-024.png",
+      "duration_ms": 100
+    }
+  ]
+}

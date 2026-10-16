@@ -1,0 +1,57 @@
+{
+  "idle": {
+    "initial": "sitting",
+    "states": {
+      "sitting": {
+        "animation": "assets/images/hachi/sitting/animation.json",
+        "stay_seconds": [20, 45],
+        "next": [
+          { "action": "curled_up_sleeping", "weight": 1 }
+        ]
+      },
+      "curled_up_sleeping": {
+        "animation": "assets/images/hachi/curled_up_sleeping/animation.json",
+        "stay_seconds": [15, 35],
+        "next": [
+          { "action": "sitting", "weight": 1 }
+        ]
+      }
+    }
+  },
+  "interaction_zones": {
+    "head": {
+      "rect": [0.28, 0.05, 0.44, 0.32]
+    },
+    "body": {
+      "rect": [0.14, 0.28, 0.72, 0.65]
+    }
+  },
+  "hover_actions": {
+    "head": {
+      "chance": 0.65,
+      "candidates": [
+        {
+          "action": "wash_face",
+          "animation": "assets/images/hachi/wash_face/animation.json",
+          "weight": 1
+        }
+      ]
+    },
+    "body": {
+      "chance": 0.5,
+      "candidates": [
+        {
+          "action": "hunting",
+          "animation": "assets/images/hachi/hunting/animation.json",
+          "weight": 1
+        },
+        {
+          "action": "curled_up_sleeping",
+          "animation": "assets/images/hachi/curled_up_sleeping/animation.json",
+          "weight": 1
+        }
+      ]
+    }
+  }
+}
+
