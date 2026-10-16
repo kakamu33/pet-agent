@@ -8,10 +8,10 @@ class PetAgentApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Pet Agent',
+      title: '猫咪桌宠',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
-        colorScheme: ColorScheme.fromSeed(seedColor: const Color(0xFF6750A4)),
+        colorScheme: ColorScheme.fromSeed(seedColor: const Color(0xFFD49B63)),
         useMaterial3: true,
       ),
       home: const PetHomePage(),
